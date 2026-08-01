@@ -41,13 +41,9 @@ portfolio/
 
 ---
 
-## 🛠️ Trạng thái Tích hợp & Các Placeholders còn lại
+## 🛠️ Trạng thái Tích hợp & Thông tin cá nhân
 
-Tôi đã cấu hình sẵn toàn bộ liên kết dự án, hình ảnh thực tế và tệp CV của bạn vào mã nguồn. Bạn chỉ cần cập nhật nốt các thông tin cá nhân còn lại sau:
-
-1. **Thông tin liên kết cá nhân (Cần cập nhật trong `index.html`)**:
-   - `[EMAIL]`: Thay bằng địa chỉ email nhận liên hệ của bạn (ví dụ: `viet.nguyenhoang@email.com` tại dòng 1846).
-   - `[LINKEDIN_URL]`: Thay bằng link trang cá nhân LinkedIn của bạn (tại dòng 1855).
+Tôi đã cấu hình sẵn toàn bộ liên kết dự án, hình ảnh thực tế và tệp CV của bạn vào mã nguồn. Các thông tin cá nhân đã được cập nhật ở phần liên hệ của trang portfolio.
 
 2. **Liên kết dự án & CV (ĐÃ TÍCH HỢP HOÀN TẤT - KHÔNG CẦN SỬA)**:
    - **Tải CV**: Đã liên kết đường dẫn `CV/Nguy%E1%BB%85n%20Ho%C3%A0ng%20Vi%E1%BB%87t-Frontend%20Developer%20Intern.pdf`.
