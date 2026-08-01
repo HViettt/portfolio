@@ -635,7 +635,7 @@
 
     .skills-list {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
       gap: 0.75rem;
       align-items: stretch;
     }
@@ -643,16 +643,18 @@
     .skill-badge {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       gap: 0.5rem;
-      padding: 0.65rem 0.85rem;
+      padding: 0.7rem 0.8rem;
       background: rgba(30, 41, 59, 0.4);
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      font-size: 0.9rem;
-      min-height: 3.25rem;
+      font-size: 0.85rem;
+      min-height: 3rem;
+      text-align: center;
       transition: var(--transition-smooth);
       width: 100%;
+      white-space: nowrap;
     }
 
     .skill-badge:hover {
@@ -663,7 +665,7 @@
     }
 
     .skill-badge i {
-      font-size: 1rem;
+      font-size: 0.95rem;
       color: var(--primary);
       transition: var(--transition-smooth);
       flex-shrink: 0;
@@ -679,14 +681,7 @@
     }
 
     .skill-level-badge {
-      font-size: 0.7rem;
-      padding: 0.15rem 0.4rem;
-      border-radius: 4px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.02em;
-      white-space: nowrap;
-      flex-shrink: 0;
+      display: none;
     }
 
     .skill-level-solid {
